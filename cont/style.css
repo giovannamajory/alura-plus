@@ -1,0 +1,56 @@
+@charset "UFT-8";
+
+:root{
+    --branco-um: white;
+    --cinza-dois: #C0C0C0;
+    --botao-tres: #167BF7;
+    --cor-fundo: #00030C;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Inter';
+    background-color: var(--cor-fundo);
+    color: var(--branco-um);
+}
+
+
+.principal {
+    background-image: url(img/Background.png);
+    /* no repeat = para a imagem não se "espelhar", não se repetir
+    contain = cobrir maior espaço na tela
+    */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-tres);
+    border-radius: 4px;
+    padding: 1em;
+    color: var(--branco-um);
+    display: block;
+}
+
+.btnseg{
+    background-color: transparent;
+    border: 3px solid;
+
+}
+
+
+
+
+
